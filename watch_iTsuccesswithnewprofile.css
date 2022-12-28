@@ -1,0 +1,119 @@
+body {
+    background-color: #161616;
+   }
+   .topnav .account{
+    background-color: #333;
+    overflow: visible;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover{
+    transform: scale(1.10);
+    background-color: rgba(128, 128, 128, 0.384);
+    color: black;
+  }
+  
+  .account a {
+    float: right;
+    text-align: right;
+    background-color: rgba(255, 0, 0, 0.493);
+    color: white;
+    border-radius: 10%
+  }
+  .topnav input{
+    background-color: gray;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: red;
+    height: 50%;
+    width: 50%;
+    padding: 6px 6px;
+  }
+  .topnav a.active {
+    background-color: rgba(255, 0, 0, 0.493);
+    color: white;
+    border-radius: 10%
+  }
+  
+  h1{ 
+    font-family: Fantasy;
+    color: rgba(17, 1, 1, 0.377);
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+  }
+  img {
+    padding: 23px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20%;
+  }
+  
+  img:hover {
+    transform: scale(1.10);
+  }
+  
+  .alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+   a{
+      text-decoration: none;
+      color: white;
+    }
+    .fa {
+
+      padding: 15px ;
+      width: 15px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .fa-facebook {
+      color: white;
+      border-radius: 50%;
+    }
+    .fa-instagram {
+      color: white;
+      border-radius: 50%;
+    }
+    .fa-mobile-phone{
+      position: absolute;
+      top: 6.5%;
+      left: 97%;
+    }
+    .fa-facebook:hover{
+        transform: scale(1.10);
+    }
+    .fa-instagram:hover{
+      transform: scale(1.10);
+    }
+    .fa-mobile-phone:hover{
+      transform: scale(1.10);
+    }

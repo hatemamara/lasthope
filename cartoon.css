@@ -1,0 +1,65 @@
+body {
+  background-color: #161616;
+ }
+   .topnav{
+    background-color: #333;
+    overflow: visible;
+  }
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .account a {
+    float: right;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    transform: scale(1.10);
+    background-color: rgba(128, 128, 128, 0.384);
+    color: black;
+  }
+  
+  .topnav input{
+        background-color: gray;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .topnav a.active {
+        background-color: rgba(255, 0, 0, 0.493);
+        color: white;
+        border-radius: 10%
+      }
+  
+ 
+  h1{ 
+    text-shadow: 2px 2px 5px red;
+    text-align: center;
+  }
+  img {
+    padding: 23px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20%;
+  }
+  
+  img:hover {
+    transform: scale(1.10);
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }

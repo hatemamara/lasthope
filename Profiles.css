@@ -1,0 +1,41 @@
+body{
+    background-color: #161616;
+}
+.first {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px rgb(48, 44, 44);
+}
+img{
+    border-radius: 20px;
+}
+.second{
+    color:white;
+    text-align: center;
+    position: absolute;
+    top: 51.5%;
+    left: 44.5%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px rgb(48, 44, 44);
+}
+h1{ color: gray;
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    text-shadow: 2px 2px 5px red;}
+h2{
+    font-family: Fantasy;
+    color: rgba(17, 1, 1, 0.377);
+    text-shadow: 2px 2px 5px red;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+  }
